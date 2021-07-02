@@ -44,6 +44,18 @@ body {
 
 /*=======head=======*/
 
+.header-svg {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.mobile {
+  width: 10px;
+  height: 16px;
+}
+
 .head {
   border: 1px solid #ececec;
 }
@@ -87,7 +99,7 @@ body {
   margin-left: auto;
 }
 
-.commun-link:first-child {
+.commun-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -117,22 +129,36 @@ body {
   color: var(--second-color);
 }
 
+
 .commun-link:hover,
 .commun-link:focus {
   color: var(--accent-color);
+  fill: currentColor;
 }
+
 
 /*=======End-head=======*/
 
 /*=======Main-Info======*/
 
+
 .main {
   background-color: #2f303a;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .main-container {
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+  url(../images/hero/bg.jpg);
+  background-size: cover;
+  text-align: center;
+  width: 1600px;
+  height: 600px;
 }
 
 .main-text {
@@ -170,7 +196,18 @@ body {
 
 /*=======End-main-info=======*/
 
-/*=======Info=========*/
+/*======Info===========*/
+
+.icons-info {
+display: flex;
+width: 270px;
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
+align-items: center;
+justify-content: center;
+}
 
 .info-container {
   padding-top: 94px;
@@ -196,6 +233,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  min-width: 270px;
 }
 
 .info-item:not(:last-child) {
@@ -241,6 +279,23 @@ body {
   padding-bottom: 94px;
 }
 
+.svg-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  fill: #AFB1B8;
+}
+
+.svg-bg:hover,
+.svg-bg:focus {
+  background-color: var(--accent-color);
+  fill: #FFFFFF;
+}
+
 .team-item {
   width: 1170px;
   background: #ffffff;
@@ -251,6 +306,7 @@ body {
 
 .team-container {
   display: flex;
+  justify-content: space-between;
 }
 
 .team-item:not(:last-child) {
@@ -269,6 +325,8 @@ body {
 .team-info {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .team-name {
@@ -287,6 +345,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  margin-bottom: 16px;
 }
 
 /*=======End-team=======*/
