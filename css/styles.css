@@ -130,18 +130,15 @@ body {
   color: var(--second-color);
 }
 
-
 .commun-link:hover,
 .commun-link:focus {
   color: var(--accent-color);
   fill: currentColor;
 }
 
-
 /*=======End-head=======*/
 
 /*=======Main-Info======*/
-
 
 .main {
   background-color: #2f303a;
@@ -153,9 +150,10 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)),
-  url(../images/hero/bg.jpg);
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/bg.jpg);
   background-size: cover;
   text-align: center;
   width: 1600px;
@@ -200,14 +198,14 @@ body {
 /*======Info===========*/
 
 .icons-info {
-display: flex;
-width: 270px;
-height: 120px;
-background: #F5F4FA;
-border-radius: 4px;
-margin-bottom: 30px;
-align-items: center;
-justify-content: center;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .info-container {
@@ -288,7 +286,7 @@ justify-content: center;
   height: 44px;
   border-radius: 50%;
   background-color: var(--wite-color);
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .svg-bg:hover,
@@ -351,7 +349,6 @@ justify-content: center;
 
 /*=======End-team=======*/
 
-
 /*==========Clients===========*/
 
 .clients {
@@ -362,13 +359,13 @@ justify-content: center;
 }
 
 .clients-title {
-font-weight: bold;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--color);
-margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color);
+  margin-bottom: 50px;
 }
 
 .clients-list {
@@ -377,14 +374,14 @@ margin-bottom: 50px;
 }
 
 .clients-button {
-border: 1px solid #AFB1B8;
-background-color: var(--wite-color);
-box-sizing: border-box;
-border-radius: 4px;
-cursor: pointer;
-width: 170px;
-height: 92px;
-fill: #AFB1B8;
+  border: 1px solid #afb1b8;
+  background-color: var(--wite-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 170px;
+  height: 92px;
+  fill: #afb1b8;
 }
 
 .clients-button:hover,
@@ -393,10 +390,7 @@ fill: #AFB1B8;
   fill: var(--accent-color);
 }
 
-
-
 /*===========End-clients============*/
-
 
 /*========Footer========*/
 
@@ -409,7 +403,6 @@ footer {
 .footer-container {
   display: block;
 }
-
 
 .footer-list {
   margin-top: 20px;
@@ -428,7 +421,7 @@ footer {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);;
+  background-color: rgba(255, 255, 255, 0.1);
   fill: var(--wite-color);
 }
 
@@ -437,7 +430,6 @@ footer {
   background-color: var(--accent-color);
   fill: var(--wite-color);
 }
-  
 
 .first-logo-footer {
   font-family: Raleway, sans-serif;
@@ -484,13 +476,13 @@ footer {
 }
 
 .footer-text {
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--wite-color);
-margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--wite-color);
+  margin-bottom: 20px;
 }
 
 .footer-links:not(:last-child) {
@@ -538,10 +530,9 @@ margin-bottom: 20px;
 .menu-button:focus {
   background-color: var(--accent-color);
   color: var(--wite-color);
-  background: #2196F3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-  0px 1px 2px rgba(0, 0, 0, 0.08),
-   0px 2px 2px rgba(0, 0, 0, 0.12);
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -581,12 +572,11 @@ margin-bottom: 20px;
 
 .projects-title:hover,
 .projects-title:focus {
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
-0px 4px 4px rgba(0, 0, 0, 0.06), 
-1px 4px 6px rgba(0, 0, 0, 0.16);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-link {
